@@ -1,0 +1,11 @@
+POST http://localhost:3000/api/user/login
+Content-Type: application/json
+
+{
+  "username": "LucasAlda" 
+} 
+
+###
+
+GET http://localhost:3000/api/user/hi
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTHVjYXNBbGRhIiwiaWF0IjoxNjA1OTA1MjcwfQ.9FL7F2FA6sOSxiQ8Fua4pO6gja3jtEhzIlerK0_OZmM

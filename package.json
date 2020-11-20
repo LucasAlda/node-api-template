@@ -1,0 +1,19 @@
+{
+  "name": "admin-backend",
+  "version": "1.0.0",
+  "description": "Admin backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "LucasAlda",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
